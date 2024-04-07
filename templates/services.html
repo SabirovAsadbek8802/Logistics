@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WePro | Services</title>
+    <link rel="stylesheet" href="{% static './styles/style.css' %}">
+    <link rel="icon" href="{% static '/images/icon/logo.svg' %}"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+      integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <a href="#" id="up">
+    <p>&#8593;</p>
+  </a>
+  <div id="down"></div>
+    <header class="header">
+      {% include 'includes/navbar.html'%}
+    </header>
+    <!-- HEADER-END -->
+
+
+    <div class="performan_bc_srv">
+      <!-- img -->
+      <h1 class="bc_title_srv"> Every service we offer inludes door to door service 100% bumper to bumper insurance </h1>
+    </div>
+    <div class="services">
+      <div class="service_part">
+        <div class="left_part">
+            <h1 class="left_h1"><span>Door-to-door</span> <br>auto transport</h1>
+            <div class="line">
+              <!-- = -->
+            </div>
+            <p class="left_p">WePro Auto Transport is known for safe and secure 
+              door-to-door auto transportation services.Door-to-door car shipping is the most convenient method of auto transport. You select a specific address for your vehicle to be picked up and dropped off. The truck driver will pick up and drop off your vehicle as close to this desired address as safely and legally possible.</p>
+        
+        </div>
+        <div class="right_part">
+          <img class="right_img" src="{% static '/images/service-1.png' %}" alt="">
+        </div>
+      </div>
+        
+      <!-- ============================================================= --> 
+      
+      <div class="service_part-2">
+        <div class="right_part">
+          <img class="right_img" src="{% static '/images/service-2.png' %}" alt="">
+        </div>
+        <div class="left_part">
+            <h1 class="left_h1"> <span>WePro Auto Transport </span><br>has years of open <br> car shipping experience</h1>
+            <div class="bottom_line">
+            <div class="line">
+              <!-- = -->
+            </div>
+            </div>
+            <p class="left_p">Open auto transport is the most common type of car shipping service. Open transport car shipping is easier to arrange than enclosed car shipping. Because open trailer car carriers can carry an average of 8-10 cars at once, open car transport is also more cost-effective than enclosed.</p>
+        
+        </div>
+      </div>
+      
+      <!-- ================================================ -->
+
+      <div class="service_part">
+        <div class="left_part">
+            <h1 class="left_h1"><span>Enclosed auto transport </span> <br> protects your car during shipping.</h1>
+            <div class="line">
+              <!-- = -->
+            </div>
+            <p class="left_p">Enclosed car transport is a type of auto transport that adds protection for vehicles. It’s a great car shipping option if you need to transport a classic or luxury car. Enclosed carriers can often only carry a few vehicles at the same time, in most cases, up to 7 automobiles.</p>
+        
+        </div>
+        <div class="right_part">
+          <img class="right_img" src="{% static '/images/service-3.png' %}" alt="">
+        </div>
+      </div>
+
+      <!-- =================================================== -->
+
+      <div class="service_part-2">
+        <div class="right_part">
+          <img class="right_img" src="{% static '/images/service-4.png' %}" alt="">
+        </div>
+        <div class="left_part">
+            <h1 class="left_h1"><span>Fully insured door-to-port </span><br> shipping in as few as 8 days</h1>
+            <div class="bottom_line">
+            <div class="line">
+              <!-- = -->
+            </div>
+            </div>
+            <p class="left_p">Shipping a car to Hawaii (Kauai, O’ahu, Maui, or the Big Island of Hawaii) is facilitated through port-to-port or door-to-port shipping services. In most cases, auto shipping to Hawaii (Honolulu) from NYC takes about 14-19 days, Chicago to Hawaii takes about 13-18 days, and LA to Hawaii around 8-12 days.</p>
+        
+        </div>
+      </div>
+
+    </div>
+     
+    </section>
+    {% include 'includes/footer.html'%}
+    
+    <script src="{% static './js/services.js' %}"></script>
+    <script src="{% static './js/top.js' %}"></script>
+</body>
+</html>

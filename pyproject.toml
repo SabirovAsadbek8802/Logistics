@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weproo"
+version = "0.1.0"
+description = ""
+authors = ["SabirovAsadbek8802 <sabirovasadbek932848802@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.3"
+
+[tool.poetry.group.dev.dependencies]
+Django = "^5.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

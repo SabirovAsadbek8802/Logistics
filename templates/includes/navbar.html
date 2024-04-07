@@ -1,0 +1,32 @@
+{% load static %}
+<nav class="navbar">
+    <div class="logo-main">
+      <a href="{% url 'home' %}"
+        ><img src="{% static './images/icon/WeProLogo.svg' %}" alt="logo.svg' %}"
+      /></a>
+    </div>
+    <!-- new -->
+    <nav>
+      <ul class="nav-bar">
+        <input type="checkbox" id="check" />
+        <span class="menu">
+          <li><a href="{% url 'home' %} ">Home</a></li>
+          <li><a href="{% url 'about-us' %} ">About us</a></li>
+          <li><a href="{% url 'services' %} ">Services</a></li>
+          <li><a href="{% url 'blog' %} ">Blog</a></li>
+          <li><a href="{% url 'howitworks' %} ">How it works?</a></li>
+          <li><a href="{% url 'faq' %} ">FAQ</a></li>
+          <label for="check" class="close-menu"
+            ><i class="fas fa-times"></i
+          ></label>
+        </span>
+        <label for="check" class="open-menu"
+          ><box-icon class="wdff" name="menu" color="#000"></box-icon
+        ></label>
+      </ul>
+    </nav>
+    <div class="menu_help">
+      <img src="{% static './images/icon/phone.svg' %}" alt="phone.svg' %}" />
+      <p class="help_p">+1(424)337-6424</p>
+    </div>
+  </nav>

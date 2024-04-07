@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WePro | FAQ</title>
+    <link rel="stylesheet" href="{% static './styles/style.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+      integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+
+    <div class="btn-up-down">
+      <a href="#" id="up">
+        <p>&#8593;</p>
+      </a>
+      <div id="down"></div>
+    </div>
+    
+    <header class="header">
+      {% include 'includes/navbar.html'%}
+    </header>
+
+    
+    <div class="performan_bc">
+      <!-- img -->
+      <h1 class="bc_title">
+         
+      </h1>
+    </div>
+    <!-- ======================================================================= -->
+
+
+<div class="text-faq">
+      <h1 class="according_h1">Facts & Questions</h1>
+    <p class="according_p">
+    
+    </p>
+</div>
+    <div class="about_content1">
+      <div class="about_right">
+        <img class="accordion_img" src="{% static './images/lambo.jpg' %}" alt="" />
+      </div>
+      <div class="color"></div>
+      <div class="about_left">
+        <div class="accorrdion">
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion-accorrdion"
+                >How long does it take to ship a car ?</span
+              >
+              <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="description">
+              It will generally take between a few days and two weeks for your car to arrive at its pickup point after it heads out for transport. This window is extremely wide because auto transport times vary considerably based on the individual shipment.If your car is heading just a few hundred miles away, it could take as little as a day to receive it. For long-distance car transports like from California to an East Coast location like New York or Florida, expect the shipment to take about a week. Beyond that, auto carriers could take a week or more to get your vehicle to spots like Hawaii, Alaska or international locations.
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">How do I choose an auto transport company ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              When researching any industry, it’s important to understand the terminology used within it. While you may already be familiar with some terms, you might come across new ones during your search. Therefore, we have compiled a list of common terms frequently used in the car shipping industry
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">How do I prepare a car for shipping ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              With your company picked out, it’s time to get your car ready for the road! Ben Franklin said, “By failing to prepare, you are preparing to fail.” But, really. Preparation lessens your risk of vehicle damage, possible theft, and, ultimately helps transporters stay on schedule so they can get the show (and your car) on the road.
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">Is insurance included with car shipping ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              There are several scenarios where driving may not be the best option for transporting your car to a different location. And in such cases, an effective alternative would be to employ car shipping services. However, while damage to your vehicle is unlikely, it remains a possibility. As a result, reputable auto transport companies provide car shipping insurance coverage to bear the risks of possible damages.
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">Is WeProAutoTransport INC legit company ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              YES, WeProAutoTransport is a legitimate car shipping company. They are fully bonded, insured and licensed company with ICC-MC #1574724
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">How does the car transport process work ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              auto transport process can be a complex one. But it doesn’t have to be! WeProAutoTransport has been helping customers ship their vehicles for over 15 years, and we can help you too. But it starts with understanding the process everyone goes through when they first start shipping a vehicle. So, read on to learn how to go about shipping your vehicle the right way, the first time.
+            </p>
+          </div>
+          <div class="accorrdion-content">
+            <header>
+              <span class="title-accorrdion">Can I ship my car with my personal belongings ?</span>
+              <i class="fa-solid fa-plus"></i>
+            </header>
+    
+            <p class="description">
+              You’ll need to secure your personal belongings so they aren’t moving around the vehicle during the transport, potentially damaging the vehicle. Remember, as I mentioned earlier, damage done to the vehicle as a result of your personal belongings is not covered by the carrier’s cargo insurance. We recommend you put your stuff in suitcases, duffle bags, or boxes and then make sure they are secured and aren’t going to move around easily.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include 'includes/footer.html'%}
+    <script src="{% static './js/acc.js' %}"></script>
+    <script src="{% static './js/top.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WePro | Home</title>
+    <link rel="stylesheet" href="{% static './styles/style.css' %}" />
+    <link rel="icon" href="{% static '/images/icon/logo.svg' %}" />
+<!-- include the style -->
+<link rel="stylesheet" href="{% static 'alertifyjs/css/alertify.min.css' %}" />
+<!-- include a theme -->
+<link rel="stylesheet" href="{% static 'alertifyjs/css/themes/default.min.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+      integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+      <!-- index partners -->
+      <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    
+    <header class="header">
+      {% include 'includes/navbar.html'%}
+      <div class="hero">
+        <div class="sidepanel">
+          <div class="sidepanel__text"><span>Social Network</span></div>
+          <div class="sidepanel__divider"></div>
+          <a href="#" class="sidepanel__icon">
+            <img src="{% static '/images/icon/instagram.svg' %}" alt="instagram" />
+          </a>
+          <a href="#" class="sidepanel__icon">
+            <img src="{% static '/images/icon/facebook.svg' %}" alt="facebook" />
+          </a>
+        </div>
+        <div class="hero-left">
+          <div class="hero-left-hh1">
+            <h1 class="hero-left-h1">
+              <span>WePro</span><br />
+              <!-- Auto transport -->
+            </h1>
+          </div>
+          <section class="wrapper">
+            <div class="sentence">
+           
+              <div class="words rotate">
+                <span>Auto-transport</span>
+                <span>To all 50 states</span>
+                <span>Auto-transport</span>
+                <span>To all 50 states</span>
+                <span>Auto-transport</span>
+                <span>To all 50 states</span>
+              </div>
+              <br/>
+            
+            </div>
+          </section>
+          <p class="hero-left-p">
+            Fast & reliable nationwide auto transport company
+          </p>
+        </div>
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="hero-card-h44">
+              <h4 class="hero-card-h4">
+                <span>GET A</span> FREE<br />INSTANT QUOTE
+              </h4>
+            </div>
+            <div class="hero-card-texts">
+              <div class="hero-card-text-h1">
+                <img src="{% static './images/icon/done.svg' %}" alt="done.svg' %}" />
+                <h1 class="hero-card-text-h">Door-to-door transportation</h1>
+              </div>
+              <div class="hero-card-text-h1">
+                <img src="{% static './images/icon/done.svg' %}" alt="done.svg' %}" />
+                <h1 class="hero-card-text-h">Open auto transport</h1>
+              </div>
+              <div class="hero-card-text-h1">
+                <img src="{% static './images/icon/done.svg' %}" alt="done.svg' %}" />
+                <h1 class="hero-card-text-h">Enclosed Car Transportt</h1>
+              </div>
+              <div class="hero-card-text-h1">
+                <img src="{% static './images/icon/done.svg' %}" alt="done.svg' %}" />
+                <h1 class="hero-card-text-h">
+                  Shipping a car to & from Hawaii
+                </h1>
+              </div>
+            </div>
+            <div class="hero-card-btn">
+              <button class="card-btn">
+                <a href="{% url 'request' %}">REQUEST A QOUTE</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER-END -->
+    <div class="partners">
+      <div class="texts">
+        <h1 class="partners_title"><span>Clients</span><br /><span>& </span>partners</h1>
+        <p class="partners_text">
+          WePro Auto Transport is in the small-business business. Built on
+          solid, long-term relationships, the company enables thousands of
+          independent transportation providers to operate their own businesses
+          as members of the WePro logistics network.
+        </p>
+      </div>
+      <div class="slider owl-carousel">
+        <div class="partners-card">
+            <div class="img"><img src="{% static './images/google.png' %}" alt=""></div>
+        </div>
+        <div class="partners-card">
+            <div class="img"><img src="{% static './images/Fmcsa.png' %}" alt=""></div>
+        </div>
+        <div class="partners-card">
+            <div class="img"><img src="{% static './images/centraldispatch01 1.png' %}" alt=""></div>
+        </div>
+        <div class="partners-card">
+            <div class="img"><img src="{% static './images/centraldispatch02 3.png' %}" alt=""></div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div> 
+    
+    <div class="help_index" style="margin-top: 100px;">
+      <section class="help">
+        <div class="img">
+          <h1 class="img-h1">
+            We are here to help 24/7.<br />
+            <span>here your phone number ... </span>
+          </h1>
+          <div class="input">
+            <form id="join-us" class="all-input" method="post" action="{% url 'home2' %}">
+              {% csrf_token %}
+              <input type="text" name="call_number" class="call_number">
+              <button class="btn" type="submit">Get help</button>
+              {% if messages %}
+                {% for message in messages %}
+                <p style="color: red;">
+                  {{message}}
+                </p>
+                {% endfor %}
+              {% endif %}
+            </form>
+          </div>
+        </div>
+        <div class="img-2">
+          <img src="{% static './images/tr 5.png' %}" alt="tr.png' %}" />
+        </div>
+      </section>
+    </div>
+        
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h1 class="footer-h1">WePro <br> <span>Auto-transport</span></h1>
+        <br>
+        <p class="footer-company-name">Company Name © 2015</p>
+      </div>
+    
+      <div class="footer-center">
+        <div>
+          <!-- <i class="fa fa-map-marker"></i> -->
+          <i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i>
+          <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        </div>
+        <br>
+        <div class="footer-iconn">
+          <!-- <i class="fa fa-phone"></i> -->
+          <i class="fa-solid fa-phone fa-2xl" style="color: #74C0FC;"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+        <br>
+        <div>
+          <!-- <i class="fa fa-envelope"></i> -->
+          <i class="fa-solid fa-envelope fa-2xl" style="color: #74C0FC;"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+      </div>
+    
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+       our vehicle transport is an easy and straightforward 
+        </p>
+    
+        <div class="footer-icons">
+          <a href="#"><img src="{% static './images/icon/instagram.svg' %}" alt=""></i></a>
+          <a href="#"><img src="{% static './images/icon/facebook.svg' %}" alt=""></a>
+          
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form method="post">
+            {% csrf_token %}
+            <div class="modal__title">
+              <p class="modal__title-p">
+                 <span>Want to see how you can</span> 
+                 
+                  save up to 5% on your quote?
+                  
+                 <span>Enter your email & phone number to find out.</span>  
+              </p>
+              <img class="tesla" src="{% static './images/tesla.png' %}" alt="" />
+              <div data-close class="modal__close">
+                <img src="{% static './images/icon/x.svg' %}" alt="" />
+              </div>
+            </div>
+             {{ form1.as_p }}
+              <button class="button phone modal_btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div> 
+    <script src="{% static './js/app.js' %}"></script>
+    <script src="{% static './js/top.js' %}"></script>
+
+    <script>alertify.notify('sample', 'success', 5, function(){  console.log('dismissed'); });</script>
+    <script>
+      $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000, //2000ms = 2s;
+      autoplayHoverPause: true,
+    });
+    alertify.alert('Ready!');
+    </script>
+    <script src="{% static 'alertifyjs/alertify.min.js' %}"></script>
+  </body>
+</html>
