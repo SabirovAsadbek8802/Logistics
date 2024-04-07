@@ -76,7 +76,7 @@ SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 SENDER_EMAIL = 'sabirovasadbek932848802@gmail.com'  # Your Gmail address
 SENDER_PASSWORD = 'wdqexuhesgqterwb'  # Your Gmail password
-RECEIVER_EMAIL = 'sabirovasadbek1605@gmail.com'  # Receiver's email address (could be your own)
+RECEIVER_EMAIL = 'support@weproautotransport.com'  # Receiver's email address (could be your own)
 
 
 # Password validation
